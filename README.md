@@ -1,14 +1,38 @@
-# FUTURE_CS_03 - Secure Your Own Wi-Fi Network
+# FUTURE_CS_01 - Web Application Security Testing
 
-This repository contains the security assessment report for my personal/home Wi-Fi network as part of **Task 3** under the FutureSkills Prime Cybersecurity Track.
+This repository contains the security testing report for a sample web application, completed as part of Task 1 in the FutureSkills Prime Cybersecurity Track.
 
 ---
 
-## Task Objective
+## ✅ Task Objective
 
-Perform a security assessment on a local Wi-Fi network to:
+Identify vulnerabilities like SQL Injection and IDOR through basic web application testing.
 
-- Identify connected devices
-- Detect open ports and services
-- Evaluate security risks
-- Recommend security improvements
+---
+
+## 🛠️ Tools Used
+
+- Burp Suite
+- SQLMap
+- Browser Developer Tools
+
+---
+
+## 🔍 Key Findings
+
+- SQL Injection on login form allowed unauthorized access
+- IDOR vulnerability exposed other users’ account data
+
+---
+
+## 🛡️ Recommendations
+
+- Use parameterized queries to prevent SQLi
+- Implement proper access control checks
+- Sanitize user input
+
+---
+
+## 📄 Deliverable
+
+The attached PDF includes the steps, findings, and suggested mitigations.
